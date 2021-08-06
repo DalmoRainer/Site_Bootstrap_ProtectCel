@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.72.0">
+
+    <!-- TÍTULO DA PÁGINA -->
+    <title>Aula Bootstrap</title>
+
+    <!-- ÍCONE DA PÁGINA -->
+    <link rel="icon" href="img/Logo.png">
+
+    <!-- LINK BOOTSTRAP -->
+    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <!-- TEMPLATE -->
+    <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER / BARRA DE NAVEGAÇÃO -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+
+                <!-- LOGO E NOME DO SITE NA BARRA DE NAVEGAÇÃO -->
+                <a class="navbar-brand" href="#">
+                    <img src="img/Logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top"> Protect Cel
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- LINKS DE NAVEGAÇÃO PALA PÁGINA -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#quemsomos">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contatos">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- CARROSSEL / INÍCIO -->
+        <section id="inicio">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+
+                    <!-- PRIMEIRO SLAID DO CARROSSEL -->
+                    <div class="carousel-item active">
+                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                            <rect width="100%" height="100%" fill="#777" />
+                        </svg>
+
+                        <img src="img/ProtectCel-Banner.png" alt="">
+
+                        <div class="container">
+                            <div class="carousel-caption text-center">
+                                <h1>Protect Cel.</h1>
+                                <p>www.protectcel.com.br.</p>
+                                <p><a class="btn btn-lg btn-primary" href="#quemsomos" role="button">Venha Conhecer</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SEGUNDO SLAID DO CARROSSEL -->
+                    <div class="carousel-item">
+                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                            <rect width="100%" height="100%" fill="#777" />
+                        </svg>
+
+                        <img src="img/ProtectCel-Banner.png" alt="">
+
+                        <div class="container">
+                            <div class="carousel-caption text-center">
+                                <h1>Protegemos seu celular contra tudo.</h1>
+                                <p>Hackers, Queda e Roubos.</p>
+                                <p><a class="btn btn-lg btn-primary" href="#quemsomos" role="button">Venha Conhecer</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TERCEIRO SLAID DO CARROSSEL -->
+                    <div class="carousel-item">
+                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                            <rect width="100%" height="100%" fill="#777" />
+                        </svg>
+
+                        <img src="img/ProtectCel-Banner.png" alt="">
+
+                        <div class="container">
+                            <div class="carousel-caption text-center">
+                                <h1>Está esperando o que ?</h1>
+                                <p>Alta qualidade e Ótimos preços.</p>
+                                <p><a class="btn btn-lg btn-primary" href="#quemsomos" role="button">Venha Conhecer</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BOTÕES PARA MOVER O CARROSSEL -->
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+        <!-- FIM DO CARROSSEL -->
+
+        <!-- INÍCIO DO CONTEÚDO DA PÁGINA -->
+        <div class="container marketing">
+
+            <!-- ROW/COL = LINHA/COLUNAS -->
+            <div class="row">
+
+                <!-- COLUNA OCUPANDO 4 COLUNAS DO ESPAÇO DE 12 COLUNAS -->
+                <div class="col-lg-4">
+                    <img src="img/Logo.png" alt="Logo" width="140" height="140">
+
+
+
+                    <h2>Protect Cel</h2>
+                    <p>Vamos proteger o seu celular.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#quemsomos" role="button">Ver detalhes &raquo;</a></p>
+                </div>
+
+                <!-- COLUNA OCUPANDO 4 COLUNAS DO ESPAÇO DE 12 COLUNAS -->
+                <div class="col-lg-4">
+                    <img src="img/Logo.png" alt="Logo" width="140" height="140">
+
+                    <h2>Protect Cel</h2>
+                    <p>Hackers, queda e roubo.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">Ver detalhes &raquo;</a></p>
+                </div>
+
+                <!-- COLUNA OCUPANDO 4 COLUNAS DO ESPAÇO DE 12 COLUNAS -->
+                <div class="col-lg-4">
+                    <img src="img/Logo.png" alt="Logo" width="140" height="140">
+
+                    <h2>Protect Cel</h2>
+                    <p>Alta qualidade e Baixo preço.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+            </div>
+            <!-- /.row -->
+
+
+            <!-- TEXTO E IMAGEM -->
+
+            <hr class="featurette-divider">
+
+            <!-- PRIMEIRO TEXTO E IMAGEM -->
+            <section id="quemsomos">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">Quem Somos.</h2>
+                        <p class="lead">Vamos proteger seu celular de tudo que pode acontecer.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="img/Logo.png" alt="" width="500" height="500">
+                    </div>
+                </div>
+            </section>
+
+            <hr class="featurette-divider">
+
+            <!-- SEGUNDO TEXTO E IMAGEM -->
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Quem Somos.</h2>
+                    <p class="lead">Não terá problemas com Hackers, Quedas/Quebar do seu celular ou Roubos.
+                    </p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="img/Logo.png" alt="" max-width="500" max-height="500">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- TERCEIRO TEXTO E IMAGEM -->
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Quem Somos.</h2>
+                    <p class="lead">Nosso serviços são de ponta. Alta qualidade garantida por nós e nossos clientes, além de um ótimo preço nos nossos pacotes.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/Logo.png" alt="" max-width="500" max-height="500">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- FIM DOS TEXTOS COM IMAGENS -->
+
+        </div>
+        <!-- FIM DO CONTEÚDO DA PÁGINA -->
+
+    </main>
+
+    <!-- FOOTER / FINAL DA PÁGINA -->
+    <footer class="container">
+        <section id="contatos">
+            <h3>Contatos</h3>
+            <p class="float-right"><a href="#inicio">Back to top</a></p>
+            <p>&copy; Dalmo Rainer &middot; <a href="https://www.linkedin.com/in/dalmo-rainer-2b6317205/" target="_blank">Linkdin</a> &middot; <a href="https://github.com/DalmoRainer" target="_blank">GitHub</a></p>
+        </section>
+    </footer>
+
+
+
+</body>
+
+</html>
